@@ -1,4 +1,4 @@
-pipeline  
+pipeline  {
    agent any
 tools{
      jdk 'jdk1.8'
@@ -39,7 +39,7 @@ tools{
                                     }
         stage('Deploy artifact'){
                                 steps{
-                                     bat 'mvn deploy'
+                                     bat 'deploy'
                                       }
                                      }   
       
