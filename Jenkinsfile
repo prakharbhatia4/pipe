@@ -12,7 +12,7 @@ tools{
       
               stage("Code Checkout") {
                                 steps {
-                                       git url: 'https://github.com/prakharbh4/jenkins.git'
+                                       git url: 'https://github.com/prakharbh4/pipe.git'
                                       }
                                      }
               stage('Build Stage') {
