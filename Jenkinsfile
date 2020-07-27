@@ -37,9 +37,9 @@ tools{
                                                                  } 
                                       } 
                                     }
-        stage('Deploy artifact'){
+              stage('Deploy artifacts'){
                                 steps{
-                                     bat 'mvn deploy'
+                                       bat 'mvn deploy'
                                       }
                                      }   
       
