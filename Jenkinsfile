@@ -15,11 +15,7 @@ tools{
                                        git url: 'https://github.com/prakharbh4/pipe.git'
                                       }
                                      }
-              stage('Build Stage') {
-                               steps{
-                                        bat 'mvn -version'
-                                     }
-                                    }
+    
               stage('Compile Stage'){
                                 steps{
                                        bat 'mvn clean install'
