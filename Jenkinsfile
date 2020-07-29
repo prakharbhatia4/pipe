@@ -16,7 +16,7 @@ tools{
                                       }
                                      }
     
-              stage('Compile Stage'){
+              stage('Build Stage'){
                                 steps{
                                        bat 'mvn clean install'
                                       }
